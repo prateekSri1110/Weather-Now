@@ -1,44 +1,70 @@
-# Weather Now
+# 🌤️ Weather-Now
 
-#Name : Prateek Srivastava
-#Email : prateek.sri2003@gmail.com
-#Phone : 8542049995
-#LinkedIn : https://www.linkedin.com/in/prateek-srivastava-1005/
+A simple, user-friendly weather web application built as part of a **Take-Home Challenge**.  
+This app lets users search for any city and get live weather data with auto-suggestions for locations.
 
-# Submission Requirements
-● Level 1 (50%):
-○ Working with AI: Please share the link to chatGPT work so that we can understand how
-you are approaching the problem. Even if you have not fully solved the problem, this itself
-is worth some points.
-● Level 2 (30 %)
-○ Working application: Deploy your application on a free hosting service like CodeSandbox,
-or StackBlitz.
-● Level 3 (20%)
-○ Code sharing: Share your code with appropriate notes and README
-● Deadline: Submit your application within one week.
+---
 
+## 📝 Challenge Overview
 
-# User Need
-Weather Now
-User Persona:
-● Name: Jamie
-● Occupation: Outdoor Enthusiast
-● Need: Jamie wants to check the current weather conditions quickly for any city.
-Task:
-● Build an application for Jamie.
-API to Use:
-● Open-Meteo API.
+This project was created in response to the following **Take-Home Challenge Instructions**:
 
+> You are provided with a set of user needs representing different small applications.  
+> Your task is to choose one of these user needs and develop a web application that addresses it.
 
-# Technology Stack
-Frameworks: React.js for building your application.
-● Styling: Bootstrap CDN, plain CSS.
-● Data Fetching: open-meteo API, Nominatim API.
-● State Management: React's built-in state management (React useState).
+The goals were to:
 
-# Level 1
-ChatGPT link : https://chatgpt.com/share/68b842a6-d868-8002-9522-9e9400c9e160
-# Level 2
-Deployment of Working application  - CodeSAndBox
-# Level 3
-All the codes present in this Repository. (Repository Link : )
+- Understand and interpret user requirements.
+- Design a simple, effective solution.
+- Implement the solution using the specified technology stack.
+- Demonstrate coding practices and problem-solving skills.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Framework:** React.js
+- **Styling:** Bootstrap + custom CSS
+- **Data Fetching:** Public APIs (no authentication or registration required):
+  - [OpenStreetMap Nominatim](https://nominatim.openstreetmap.org/) — Location auto-suggestions
+  - [Open-Meteo](https://open-meteo.com/) — Live weather data
+- **State Management:** React's built-in `useState` and `useEffect`
+
+---
+
+## 🚀 Features
+
+- 🔎 **Auto-suggestions:** Type a city name and get location suggestions in real time.
+- 🌡️ **Live weather data:** Fetches temperature, windspeed, and time for the selected location.
+- 🖼️ **Dynamic background:** Background image updates based on temperature and day/night.
+- ⚡ **No API keys required:** Uses fully public APIs.
+
+---
+
+## 📂 Project Structure
+<img width="416" height="416" alt="image" src="https://github.com/user-attachments/assets/4b72a25d-1d07-41d8-87ef-fc4f7ee94423" />
+
+## 🧩 Challenge Requirements & Deliverables
+
+| Level | Requirement                                       | Status |
+|-------|---------------------------------------------------|--------|
+| 1     | Working with AI: share ChatGPT conversation link  | ✅ Done |  ( Link - https://chatgpt.com/share/68b842a6-d868-8002-9522-9e9400c9e160 )
+| 2     | Working application: deploy on free hosting       | ✅ Done |  ( Link - https://weathernowo.netlify.app/ )
+| 3     | Code sharing: share code with notes and README    | ✅ Done |  ( Link - https://github.com/prateekSri1110/Weather-Now/ )
+
+---
+
+## 🧠 Development Notes
+
+Auto-suggestions are debounced by 300ms to avoid unnecessary API calls.
+* The background image selection is based on:
+  -> Temperature ranges (cold, mild, warm, hot, night)
+* Day/Night detection via Open-Meteo's is_day field
+* All API calls are client-side since no private credentials are used.
+
+## Reference Images of the working application
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/550c8eec-0b05-4adc-8d2f-a364c96bd44c" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8a60396-bf13-463d-bf88-3a8f942a9a29" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/033288dd-3316-4a53-9b6e-ee6eae976423" />
