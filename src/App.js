@@ -143,7 +143,6 @@ function App() {
                 onClick={() => handleSuggestionClick(place)}
               >
                 {place.display_name}
-                <hr />
               </li>
             ))}
           </ul>
