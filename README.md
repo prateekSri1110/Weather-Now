@@ -62,7 +62,10 @@ Auto-suggestions are debounced by 300ms to avoid unnecessary API calls.
 * Day/Night detection via Open-Meteo's is_day field
 * All API calls are client-side since no private credentials are used.
 
-## Reference Images of the working application
+## Reference Video & Images of the working application : 
+
+video Link : https://drive.google.com/file/d/1inQXVTkVdCMrMUBnDzLyuGMgDLz7adgu/view?usp=sharing
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/550c8eec-0b05-4adc-8d2f-a364c96bd44c" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8a60396-bf13-463d-bf88-3a8f942a9a29" />
