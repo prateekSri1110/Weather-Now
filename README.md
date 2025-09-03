@@ -48,11 +48,18 @@ The goals were to:
 
 | Level | Requirement                                       | Status |
 |-------|---------------------------------------------------|--------|
-| 1     | Working with AI: share ChatGPT conversation link  | ✅ Done |  Link - https://chatgpt.com/share/68b842a6-d868-8002-9522-9e9400c9e160 
-| 2     | Working application: deploy on free hosting       | ✅ Done |  Link - https://weathernowo.netlify.app/ 
-| 3     | Code sharing: share code with notes and README    | ✅ Done |  Link - https://github.com/prateekSri1110/Weather-Now/ 
+| 1     | Working with AI: share ChatGPT conversation link  | ✅ Done |  
+| 2     | Working application: deploy on free hosting       | ✅ Done |  
+| 3     | Code sharing: share code with notes and README    | ✅ Done |  
 
 ---
+
+
+## Links 
+ChatGPT convo - https://chatgpt.com/share/68b842a6-d868-8002-9522-9e9400c9e160 
+Deployed app - https://weathernowo.netlify.app/ 
+GitHub - https://github.com/prateekSri1110/Weather-Now/ 
+
 
 ## 🧠 Development Notes
 
@@ -61,6 +68,7 @@ Auto-suggestions are debounced by 300ms to avoid unnecessary API calls.
   -> Temperature ranges (cold, mild, warm, hot, night)
 * Day/Night detection via Open-Meteo's is_day field
 * All API calls are client-side since no private credentials are used.
+
 
 ## Reference Video & Images of the working application : 
 
